@@ -18,7 +18,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[12pt, letterpaper]{awesome-cv}
+\documentclass[12pt, a4paper]{awesome-cv}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -42,7 +42,7 @@
 % \definecolor{sectiondivider}{HTML}{5D5D5D}
 
 % Set false if you don't want to highlight section with awesome color
-\setbool{acvSectionColorHighlight}{true}
+\setbool{acvSectionColorHighlight}{false}
 
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
@@ -55,7 +55,7 @@
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
 \name{Eugene K.}{Lee}
-\position{Infection Prevention \& Control{\enskip\cdotp\enskip}Student}
+\position{Master of Public Health{\enskip\cdotp\enskip}Student}
 \address{Hidden Placeholder}
 
 \mobile{(+1) Hidden}
@@ -90,7 +90,7 @@
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {Eugene K. Lee~~~·~~~Resume}
   {\thepage}
 
 
@@ -99,13 +99,13 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{cv/education.tex}
-\input{cv/skills.tex}
 \input{cv/experience.tex}
-\input{cv/extracurricular.tex}
-\input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+\input{cv/skills.tex}
+% \input{cv/extracurricular.tex}
+% \input{cv/honors.tex}
+% \input{cv/presentation.tex}
+% \input{cv/writing.tex}
+% \input{cv/committees.tex}
 
 
 %-------------------------------------------------------------------------------
